@@ -1,0 +1,27 @@
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row {
+  margin: 15px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado h2,
+.etiqueta {
+  font-weight: 400;
+}
+
+.errores {
+  color: red;
+}
